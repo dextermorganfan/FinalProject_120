@@ -37,6 +37,11 @@ div.featured {
   {
 height: 200px;
 padding: 20px 50px;
+transition: 2s;
+  }
+  td img:hover
+  {
+    transform:scale(1.25,1.25) ;
   }
   /* td{
     

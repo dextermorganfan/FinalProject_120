@@ -10,7 +10,19 @@
   <body>
     <header>
       <img style="height: 100px; width: auto" src="pics/mcLOGO.png" alt="" />
-      <a href="">menu</a>
+      <a href="Bevs">bevs</a>
+      <div class="popup" onclick="myFunction()">
+        Menu
+        <span class="popuptext" id="myPopup">
+          <ul>
+            <li><a href="Featured"></a>Featured</li>
+            <li><a href="Breakfast">Breakfast</a></li>
+            <li><a href="Burgers"></a>Burgers</li>
+            <li><a href="Chicken/Fish"></a>Chicken/Fish</li>
+            <li><a href="Bevs"></a>Bevs</li>
+          </ul></span
+        >
+      </div>
     </header>
     <div class="menuitems">
       <br />
@@ -18,7 +30,7 @@
       <br />
       <br />
       <br />
-      <h1>Featured</h1>
+      <h1 id="Featured">Featured</h1>
       <div class="featured">
         <a href=""><img src="pics/featured/Big Mac.jpg" alt="" />Big Mac</a>
         <a href=""
@@ -121,7 +133,7 @@
           </td>
         </tr>
       </table>
-      <h1>Burgers</h1>
+      <h1 id="Burgers">Burgers</h1>
       <table>
         <tr>
           <td class="burg">
@@ -199,7 +211,7 @@
           </td>
         </tr>
       </table>
-      <h1>Chicken</h1>
+      <h1 id="Chicken/Fish">Chicken/Fish</h1>
       <table>
         <tr>
           <td class="Chicken">
@@ -265,7 +277,7 @@
           </td>
         </tr>
       </table>
-      <h1>Bevs</h1>
+      <h1 id="Bevs">Bevs</h1>
       <table>
         <tr>
           <td class="bev">
@@ -300,9 +312,10 @@
             <a href=""
               ><img
                 src="pics/beverages/Reduced Sugar Low Fat Chocolate Milk Jug"
-                alt="" />
-              <p>Reduced Sugar Low Fat Chocolate Milk Jug</p
-            ></a>
+                alt=""
+              />
+              <p>Reduced Sugar Low Fat Chocolate Milk Jug</p></a
+            >
           </td>
 
           <td class="bev">

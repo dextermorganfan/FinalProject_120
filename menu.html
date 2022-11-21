@@ -8,22 +8,45 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <img style="height: 100px; width: auto" src="pics/mcLOGO.png" alt="" />
-      <a href="Bevs">bevs</a>
-      <div class="popup" onclick="myFunction()">
-        Menu
-        <span class="popuptext" id="myPopup">
-          <ul>
-            <li><a href="Featured"></a>Featured</li>
-            <li><a href="Breakfast">Breakfast</a></li>
-            <li><a href="Burgers"></a>Burgers</li>
-            <li><a href="Chicken/Fish"></a>Chicken/Fish</li>
-            <li><a href="Bevs"></a>Bevs</li>
-          </ul></span
-        >
-      </div>
+    <header id="top">
+      <img id="log" src="pics/mcLOGO.png" alt="" />
     </header>
+    <div class="container">
+      <div class="linkbox">
+        <h1><a href="#top">Menu</a></h1>
+        <ul>
+          <li><a href="#Featured">Featured</a></li>
+          <li><a href="#Breakfast">Breakfast</a></li>
+          <li><a href="#Burgers">Burgers</a></li>
+          <li><a href="#Chicken/Fish">Chicken/Fish</a></li>
+          <li><a href="#Bevs">Bevs</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="cart">
+      <h1>Cart</h1>
+      <div class="item">
+      <table>
+        <tr>
+          <td>
+            <img
+              src="pics/beverages/Coca-Cola®.jpg"
+              id="cartimg"
+              style="height: 40px"
+            />
+          </td>
+          <td>
+            <div class="itemsz"> <b>Coca-Cola</b>
+        
+              <sub id="size">Size L</p></div>
+           
+          </td>
+          <td><p id="price">$2.99</p></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    </div>
     <div class="menuitems">
       <br />
       <br />
@@ -64,7 +87,9 @@
           Fries</a
         >
       </div>
-      <h1>Breakfast</h1>
+      <br />
+      <br />
+      <h1 id="Breakfast">Breakfast</h1>
       <table>
         <tr>
           <td class="bfitem">
@@ -272,7 +297,7 @@
                 src="pics/chicken & Fish sandwiches/Spicy Deluxe Crispy Chicken Sandwich.jpg"
                 alt=""
               />
-              <p>Spicy Deluxe Crispy Chicken Sandwich</p></a
+              <p>Spicy Deluxe Crispy <br> Chicken Sandwich</p></a
             >
           </td>
         </tr>
@@ -327,6 +352,7 @@
         </tr>
       </table>
     </div>
+    <div class="footer"></div>
     <script src="menu.js"></script>
   </body>
 </html>

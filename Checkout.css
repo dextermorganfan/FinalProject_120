@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Work Sans';
+}
+
+.checkout {
+   min-height: 100vh;
+   background-color: rgb(255, 255, 255);
+}
+
+.checkout-text {
+   position: absolute;
+   display: flex;
+   left: 50%;
+   transform: translate(-50%,50%);
+   font-size: 70px;
+   font-weight: bolder;
+   color: #D52B1E;
+}
+
+.container {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   background-color: rgba(180, 180, 180, 0.212);
+   left: 25%;
+   transform: translate(-50%,50%);
+   width:700px;
+   height: 500px;
+   overflow: scroll;
+}
+
+.container-item {
+   position: relative;
+   display: none;
+   justify-content: center;
+   margin-top: 7px;
+}
+
+.filler {
+   width: 500px;
+   height: 130px;
+}
+
+.product_image {
+   position: absolute;
+   display: flex;
+   width: 105px;
+   height: 105px;
+   margin-right: 350px;
+}
+
+.product_name {
+   position: absolute;
+   display: flex;
+   font-size: 20px;
+   top: 40%;
+   font-weight: bold;
+   color: #D52B1E;
+}
+
+.product_price {
+   position: absolute;
+   display: flex;
+   font-size: 25px;
+   top: 39%;
+   margin-left: 300px;
+   font-weight: thin;
+   color: #D52B1E;
+}
+
+.total-text {
+   position: absolute;
+   display: flex;
+   font-weight: bolder;
+   font-size: 30px;
+   color: #D52B1E;
+   left: 50%;
+   top: 110px;
+   transform: translate(-50%,50%);
+}
+
+.payout-text {
+   position: absolute;
+   display: flex;
+   left: 50%;
+   top: 160px;
+   transform: translate(-50%,50%);
+   font-size: 25px;
+   font-weight: 100;
+   color:#D52B1E;
+}
+
+.payout-options-div {
+   display: flex;
+   position: absolute;
+   left: 75%;
+   top: 300px;
+   transform: translate(-50%,50%)
+}
+
+.payout-options-div p {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-left: 15px;
+   color: white;
+   background-color: #D52B1E;
+   border-radius: 100px;
+   font-size: 50px;
+   transition: transform .25s;
+}
+
+.payout-options-div p:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}
+
+.tip-text {
+   position: absolute;
+   display: flex;
+   left: 75%;
+   top: 410px;
+   transform: translate(-50%,50%);
+   color: #D52B1E;
+   font-weight: bold;
+   font-size: 25px;
+}
+
+.tip {
+   position: absolute;
+   display: flex;
+   left: 75%;
+   top: 450px;
+   height: 50px;
+   transform: translate(-50%,50%);
+   color: #D52B1E;
+   font-weight: bold;
+   font-size: 35px;
+   outline: transparent;
+   border-radius: 10px;
+   padding-left: 10px;
+   border: solid #D52B1E;
+}
+
+.checkout-button {
+   position: absolute;
+   display: flex;
+   font-size: 30px;
+   background: #D52B1E;
+   color: white;
+   border-radius: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   left: 75%;
+   top: 550px;
+   transform: translate(-50%,50%);
+   padding-bottom: 5px;
+   padding-top: 5px;
+   transition: font-size .25s;
+}
+
+.checkout-button:hover {
+   cursor: pointer;
+   font-size: 28px;
+}

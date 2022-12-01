@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Work Sans';
+   font-weight: bold;
+   color: rgb(77, 69, 69);
+}
+
+.reg {
+   min-height: 100vh;
+   background-color: #D52B1E;
+}
+
+.logo {
+   height: fit;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: 30px;
+}
+
+.main {
+   height: fit-content;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   top: 70px;
+}
+
+.main img {
+   width: 500px;
+}
+
+.username {
+   height: fit-content;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 5.2in;
+}
+
+.username img {
+   width: 400px;
+}
+
+.password {
+   height: fit-content;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 5in;
+}
+.password img {
+   width: 400px;
+}
+
+.signup {
+   height: fit-content;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 4.5in;
+}
+
+.login {
+   height: fit-content;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 4.35in; 
+}
+
+.signup img {
+   transition: .5s;
+}
+
+.login img {
+   transition: .5s
+}
+
+.signup img:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}
+
+.login img:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}
+
+.usernameinput {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 8.8in;
+   height: .6in;
+}
+
+.usernameinput input {
+   width: 3.5in;
+   font-size: 35px;
+   border: transparent;
+   background: transparent;
+   outline: transparent;
+}
+
+.passwordinput {
+   position: relative;
+   display: flex;
+   justify-content: center;
+   bottom: 7.97in;
+   height: .6in;
+}
+
+.passwordinput input {
+   width: 3.5in;
+   font-size: 35px;
+   border: transparent;
+   background: transparent;
+   outline: transparent;
+}

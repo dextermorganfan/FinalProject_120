@@ -75,7 +75,7 @@ if (!localStorage.Condiments) {
    localStorage.setItem("Condiments", "")
 }
 
-if (!localStorage.Beverages) {
+if (!localStorage.McBakery) {
    localStorage.setItem("McBakery", "")
 }
 

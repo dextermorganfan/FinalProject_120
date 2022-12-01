@@ -1,171 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
+* {
+   padding: 0;
+   margin: 0;
+   font-family: 'Work Sans';
 }
-div.featured {
-    background-color: white;
-    overflow: auto;
-    white-space: nowrap;
-    margin: 0 400px;
-  }
-  header
-  {
-    height: 200px;
-    background-color: rgb(250, 58, 58);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 10;
-  }
-  #log
-  {
-    height: 140px;
-  }
-  .linkbox h1 a
-  {
-    text-decoration: none;
-    color: black;
-  }
- 
 
-.cart
-{
-  clear: both;
-  flex-direction:column;
- right: 1%;
-  bottom: 14%;
-  z-index: -1;
+.custmenu {
+   min-height: 30in;
+   background-color: #D52B1E;
+}
 
+.logo {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: .3in;
+}
 
-position: fixed;
-  display: flex;
-  width: 300px;
-  height: 400px;
-  line-height: 50px;
-  text-align: center;
-  align-items: center; 
-  border: solid red 5px;
-  background-color: white(255, 255, 0); 
+.beverages .text {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 1.5in;
 }
-.item
-{
-  display:inline-flex
-}
-.itemsz
-{
-  line-height: 10px;
-}
-#price
-{
-  
-  right: 1%;
-}
-#size
-{
 
+.beverage_items {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 2in;
+   max-width: 100vw;
 }
-#cartimg
-{
-  height: 40px;
 
+.filler {
+   width: 4.5in;
+   padding: 5px 5px 5px 5px;
+}
+
+.product_image {
+   display: flex;
+   position: relative;
+   bottom: 1.6in;
+   left: 3in;
+   width: 1.5in;
+}
+
+.product_name {
+   display: flex;
+   position: relative;
+   bottom: 2.7in;
+   left: .35in;
+   font-size: 20px;
+}
+
+.product_calories {
+   display: flex;
+   position: relative;
+   bottom: 2.65in;
+   left: .35in;
+   font-size: 20px;
+   font-weight: 200;
+   color: #BEBEBE;
 }
 
 
-  .linkbox
-  {
-    clear: both;
-    flex-direction:column;
-    margin-left: 30px;
-    bottom: 28.2%;
-    z-index: -1;
- position: absolute; 
-position: relative;
-position: fixed;
-    display: flex;
-    width: 200px;
-    height: 300px;
-    line-height: 50px;
-    text-align: center;
-    align-items: center; 
-    border: solid red 5px;
-    background-color: rgb(255, 255, 0);
-  }
-  .linkbox ul
-  {
-    font-size: 30px;
-    list-style-type: none;
-    text-decoration: none;
-   
-   
-  }
-  .linkbox ul a
-  {
-    color: black;
-    text-decoration: none;
-    
-  }
-  .linkbox ul a:hover
-  {
-    color:red
-  }
-  
-  div.featured a {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px;
-    text-decoration: none;
-  }
-  
-  div.feature a:hover {
-    background-color: #777;
-  }
-  div.featured a img
-  {
-    height: 150px;
-  }
-  table
-  {
-     margin: 0 auto;
+.product_price {
+   display: flex;
+   width: fit-content;
+   position: relative;
+   bottom: 2.4in;
+   left: .35in;
+   font-size: 25px;
+   font-weight: bold;
+   border-radius: 5%;
+   padding: 1px 15px 1px 15px;
+   color: white;
+   background-color: #D52B1E;
 }
-  td
-  {
-    width: 200px;
-    text-align: center;
-  }
-  h1
-  {
-    text-align: center;
-  }
-  td img
-  {
-height: 200px;
-padding: 20px 50px;
-transition: 2s;
-  }
-  td img:hover
-  {
-    transform:scale(1.25,1.25) ;
-  }
-  /* td{
-    
-    font-size: large;
-    color: white;
-    transition: 2s;
-  }
-  td:hover
-  {
 
-    color: black;
-  } */
-  td a{
-    font-size: large;
-    text-decoration: none;
-    color: white;
-    transition: 2s;
-  }
-  td a:hover
-  {
-    color: black;
-  }
+.item {
+   max-height: 1.7in;
+   display: none;
+}
+
+.delete_button {
+   width: 60px;
+   position: relative;
+   bottom: 4in;
+   transform: rotate(45deg);
+   left: 48%;
+}
+
+.burgers .text {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 2.5in;
+}
+
+.burger_items {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 3in;
+}
+
+.condiments .text {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 3.5in;
+}
+
+.condiment_items {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 4in;
+}
+
+
+.mcbakery .text {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 4.5in;
+}
+
+.mcbakery_items {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 5in;
+}
+
+.coffee .text {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 5.5in;
+}
+
+.coffee_items {
+   display: flex;
+   position: relative;
+   justify-content: center;
+   top: 6in;
+}
+
+.text div img {
+   position: absolute;
+   display: flex;
+   padding-left: 20px;
+   width: 50px;
+}
+
+.AddUI {
+   z-index: 2;
+   position: absolute;
+   display: flex;
+   left: 50%;
+   transform: translate(-50%,25%);
+   height: 861px;
+   width: 600px;
+}
+
+.add_button {
+   position: absolute;
+   left: 50%;
+   top: 80%;
+   transform: translate(-50%,25%);
+}
+
+.inputs {
+   position: absolute;
+   left: 50%;
+   bottom: 253px;
+   transform: translate(-50%,25%);
+}
+
+.inputs input {
+   height: 80px;
+   width: 535px;
+   margin-bottom: 89px;
+   font-size: 50px;
+   background: transparent;
+   border-color: #ffffff;
+}
+
+.close {
+   position: absolute;
+   left: 5.7in;
+   bottom: 93%;
+   transform: rotate(45deg);
+}
+
+.close img {
+   width: 90px;
+}
+
+.logout {
+   width: fit-content;
+   position: absolute;
+   display: flex;
+   left: 88%;
+   bottom: 3.2in;
+   top: 50px;
+   height: fit-content;
+}
+
+.logout img:hover {
+   transform: scale(.9,.9);
+   cursor: pointer;
+}
+
+
+.logout img {
+   transition: .35s;
+   width: 200px;
+}
+
+.product_image {
+   z-index: 1;
+}
+
+.delete_button {
+   z-index: 1;
+}
+
+.to_cart {
+   z-index: 1;
+   display: flex;
+   position: absolute;
+   width: 120px;
+   bottom: .2in;
+   margin-left: 3.2in;
+   transition: .35s;
+}
+
+.to_cart:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}
+
+.cart {
+   z-index: 3;
+   position: fixed;
+   display: flex;
+   top: 25%;
+   left: -500px;
+   overflow: hidden;
+   transition: .35s;
+}
+
+.cart_main {
+   width: 500px;
+}
+
+.container {
+   position: absolute;
+   width: 450px;
+   height: 380px;
+   background: rgba(218, 218, 218, 0.465);
+   left: 50%;
+   transform: translate(-50%,20%);
+   overflow: scroll;
+}
+
+.cart_item {
+   position: relative;
+   display: none;
+   justify-content: center;
+}
+
+.cart_back {
+   width: 420px;
+   padding-top: 5px;
+}
+
+.cart_image {
+   position: absolute;
+   display: flex;
+   width: 100px;
+   top: 30px;
+   left: 10px;
+}
+
+.cart_name {
+   position: absolute;
+   display: flex;
+   font-size: 15px;
+   top: 66px;
+   padding-right: 40px;
+}
+
+.cart_price {
+   position: absolute;
+   display: flex;
+   font-size: 25px;
+   background: #D52B1E;
+   border-radius: 100px;
+   color: white;
+   padding-right: 10px;
+   padding-left: 10px;
+   margin-left: 300px;
+   top: 61px;
+}
+
+.cart_remove {
+   position: absolute;
+   display: flex;
+   font-size: 15px;
+   background: #D52B1E;
+   border-radius: 100px;
+   color: white;
+   padding-right: 7px;
+   padding-left: 7px;
+   margin-left: 300px;
+   top: 95px;
+   transition: transform .35s;
+}
+
+.cart_remove:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}
+
+.cart_calories {
+   position: absolute;
+   display: flex;
+   font-size: 15px;
+   top: 90px;
+   padding-right: 40px;
+   color: #BEBEBE;
+}
+
+.total {
+   position: absolute;
+   display: flex;
+   left: 25%;
+   top: 87%;
+   transform: translate(-50%,0%);
+   color: #D52B1E;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.checkout {
+   position: absolute;
+   background:#D52B1E;
+   left: 60%;
+   top: 87%;
+   color: white;
+   border-radius: 100px;
+   padding-left: 10px;
+   padding-right: 10px;
+   font-size: 25px;
+   transition: transform .35s;
+}
+
+.checkout:hover {
+   cursor: pointer;
+   transform: scale(.95,.95);
+}

@@ -63,6 +63,26 @@ function loadItems(arr, tbl_head, category) {
 
 }
 
+if (!localStorage.Beverages) {
+   localStorage.setItem("Beverages", "")
+}
+
+if (!localStorage.Burgers) {
+   localStorage.setItem("Burgers", "")
+}
+
+if (!localStorage.Condiments) {
+   localStorage.setItem("Condiments", "")
+}
+
+if (!localStorage.Beverages) {
+   localStorage.setItem("McBakery", "")
+}
+
+if (!localStorage.Coffee) {
+   localStorage.setItem("Coffee", "")
+}
+
 
 let Beverages
 

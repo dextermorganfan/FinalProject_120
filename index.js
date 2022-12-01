@@ -63,11 +63,11 @@ function checkIfAlreadyInDatabase(username,password,buttonClicked) {
                alert("You have sucessfully logged into your account.")
                if (username  == "manager") {
                   localStorage.setItem("isManager", true)
-                  window.location.href = "Menu.html"
+                  window.location.href = "menu.html"
                } else {
                   localStorage.setItem("user", username)
                   localStorage.setItem("isManager", false)
-                  window.location.href = "Menu.html"
+                  window.location.href = "menu.html"
                }
                resetInputfields()
                break

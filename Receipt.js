@@ -6,6 +6,10 @@ let total = document.getElementsByClassName("total")[0]
 
 let date = document.getElementsByClassName("date")[0]
 
+let thank = document.getElementsByClassName("thank")[0]
+
+thank.textContent = `Thank you for you order, ${localStorage.user}`
+
 let dateactual = new Date()
 
 let hour = dateactual.getHours()
